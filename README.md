@@ -19,6 +19,13 @@ This project focuses on finding and fixing vulnerabilities in the open-source OW
 # Baseline Vulnerabilities
 The baseline vulnerabilities identified are documented in 'reports/baseline-scan-report.html'
 
+## Fixes 
+
+### SQL Injection (01/07/2025)
+- **Location**: '/login' endpoint.
+- **Issue**: User input was concatenated into SQL queries.
+- **Solution**: Implemented parameterized queries to handle user input.
+
 # Acknowledgment
 This project is based on OWASP Juice Shop, an open-source web application used for education and training. Full credit for the original Juice Shop application goes to the OWASP Juice Shop development team and contributers. 
 
