@@ -19,7 +19,7 @@ This project focuses on finding and fixing vulnerabilities in the open-source OW
 # Baseline Vulnerabilities
 The baseline vulnerabilities identified are documented in 'reports/baseline-scan-report.html'
 
-## Fixes 
+# Fixes 
 
 ### SQL Injection (01/07/2025)
 - **Location**: '/login' endpoint.
